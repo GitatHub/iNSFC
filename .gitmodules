@@ -1,2 +1,3 @@
-[submodule "DbConnector"]
-	branch = stable
+[submodule "gbt7714"]
+	path = gbt7714
+	url = https://github.com/CTeX-org/gbt7714-bibtex-style.git
