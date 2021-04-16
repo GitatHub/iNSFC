@@ -1,0 +1,35 @@
+# 以'#' 开始的行，被视为注释.
+# 忽略掉所有文件名是 foo.txt 的文件.
+foo.txt
+# 忽略所有生成的 html 文件,
+*.html
+*.aux
+*.bbl
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.gz(busy)
+*.gz
+*.out
+*.zip
+*.log
+*.blg
+demo.pdf
+_minted-demo/
+# foo.html是手工维护的，所以例外.
+!foo.html
+#  忽略所有.o 和 .a文件.
+*.[oa]
+
+# ignore submodule files
+gbt7714/examples/
+gbt7714/test/
+gbt7714/tools/
+gbt7714/variants/
+gbt7714/build.lua
+gbt7714/CHANGELOG.md
+gbt7714/gbt7714.dtx
+gbt7714/gbt7714.ins
+gbt7714/LICENSE
+gbt7714/Makefile
+gbt7714/README.md
